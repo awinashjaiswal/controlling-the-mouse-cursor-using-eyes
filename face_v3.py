@@ -189,7 +189,7 @@ while True:
             modn_to_nose=(shape.part(mdn).y-shape.part(nosetip).y)
             cur_cont=float(modn_to_nose)/float(moup_to_nose)
             print cur_cont
-            #------ loking the cursor----------------------#
+            #------ locking the cursor----------------------#
             if cur_cont>=1.4:
                 if flag==0:
                     flag=1
